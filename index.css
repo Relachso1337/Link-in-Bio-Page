@@ -8,9 +8,9 @@ html {
 }
 
 body {
-  background: url(./images/475884.jpg) repeat center center fixed;
+  background-color: grey;
   height: 100%;
-  background-size: cover;
+  
 }
 
 main{
@@ -27,7 +27,7 @@ main{
 }
 
 header {
-  margin-top: 1em;
+    margin-top: 10px;
   text-align: center;
   display: flex;
   flex-direction: column;

@@ -7,22 +7,23 @@
     <title>Link-in-Bio</title>
     <link rel="stylesheet" href="./index.css" />
     <script src="./three.min.js"></script>
-    <script src="./vanta.birds.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.net.min.js"></script>
     <script>
       window.addEventListener("DOMContentLoaded", () => {
-        VANTA.BIRDS({
-          el: "#vanta",
-          mouseControls: true,
-          touchControls: true,
-          gyroControls: false,
-          minHeight: 200.0,
-          minWidth: 200.0,
-          scale: 1.0,
-          scaleMobile: 1.0,
-          birdSize: 2.0,
-          separation: 40.0,
-          backgroundAlpha: 0.0,
-        });
+        VANTA.NET({
+  el: "#vanta",
+  mouseControls: true,
+  touchControls: true,
+  gyroControls: false,
+  minHeight: 200.00,
+  minWidth: 200.00,
+  scale: 1.00,
+  scaleMobile: 1.00,
+  color: 0x55aede,
+  backgroundColor: 0x130b20,
+  points: 15.00,
+  maxDistance: 25.00
+});
       });
     </script>
   </head>
